@@ -69,7 +69,7 @@ class BankAccountManagement
 		BankAccount ba = new BankAccount();
 		ba.setBalance(2);
 		ba.setAccountNumber(468484873573l);
-		ba.setAccountHolderName("mala");
+		ba.setAccountHolderName("Mala");
 		System.out.println("Account holder name "+ba.getAccountHolderName());
 		System.out.println("Account Balance "+ba.getBalance());
 		System.out.println("Account number "+ba.getAccountNumber());
