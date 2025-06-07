@@ -40,7 +40,7 @@ class SBI extends Bank
 		{
 			double updated = getBalance() + amount;
 			setBalance(updated);
-			System.out.println(amount+" depsited successfully");
+			System.out.println(amount+" deposited successfully.");
 		}
 
 	}
@@ -77,7 +77,7 @@ class HDFC extends Bank
 		{
 			double updated = getBalance() + amount;
 			setBalance(updated);
-			System.out.println(amount+" depsited successfully");
+			System.out.println(amount+" deposited successfully.");
 		}
 
 	}
